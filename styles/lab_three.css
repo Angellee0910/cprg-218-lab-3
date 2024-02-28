@@ -1,0 +1,21 @@
+iframe {
+    width: 100%;
+    height: auto;
+    padding-bottom: 56.25%; /* 16:9 aspect ratio */
+    position: relative;
+  }
+
+  @media screen and (min-width: 430px) {
+    iframe {
+      min-height: 18.5rem;
+    }
+  }
+  
+  @media screen and (min-width: 1000px) {
+    iframe {
+      min-height: 45.375rem;
+    }
+  }
+  
+  
+
